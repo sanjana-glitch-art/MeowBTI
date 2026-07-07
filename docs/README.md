@@ -22,6 +22,13 @@ Built for **The Coding Kitty Hackathon 2026** - theme: *World Cat Domination Day
 
 ---
 
+## Screenshots
+
+![Landing page](./screenshots/landing.png)
+![Cat intake](./screenshots/intake.png)
+![Quiz in progress](./screenshots/quiz.png)
+![Result card](./screenshots/result.png)
+
 ## What This Is
 
 Every cat has a personality - some rule from the shadows, some knock things off tables out of principle, some have achieved a final, unmovable loaf state. MeowBTI takes a cat owner through:
@@ -99,7 +106,7 @@ Then open `http://localhost:3000`.
 |---|---|---|
 | `GEMINI_API_KEY` | Optional (recommended) | Enables AI-generated verdicts via the Gemini API. Without it, the app uses a scored fallback verdict instead. |
 
-No environment variable is ever exposed to the client - the Gemini API key is only read server-side inside the `/api/verdict` route handler.
+No environment variable is ever exposed to the client - the Gemini API key is only read server-side inside the `/api/verdict` route handler. The deployment also sets an HSTS (`Strict-Transport-Security`) response header via `next.config.ts`, enforcing HTTPS-only connections. See [`SECURITY.md`](./SECURITY.md) for the full security write-up, including an attached Aikido Security scan report.
 
 ## Project Structure
 
