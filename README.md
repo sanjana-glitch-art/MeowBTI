@@ -24,10 +24,10 @@ Built for **The Coding Kitty Hackathon 2026** — theme: *World Cat Domination D
 
 ## Screenshots
 
-![Landing page](./screenshots/landing.png)
-![Cat intake](./screenshots/intake.png)
-![Quiz in progress](./screenshots/quiz.png)
-![Result card](./screenshots/result.png)
+![Landing page](docs/screenshots/landing.png)
+![Cat intake](docs/screenshots/intake.png)
+![Quiz in progress](docs/screenshots/quiz.png)
+![Result card](docs/screenshots/result.png)
 
 ## What This Is
 
